@@ -1,0 +1,11 @@
+/*
+
+!.gitignore
+
+!/qutebrowser*
+qutebrowser/qsettings/
+qutebrowser/autoconfig.yml
+
+!/waybar*
+!/sway*
+!/kitty*

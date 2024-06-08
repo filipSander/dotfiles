@@ -1,0 +1,79 @@
+* {
+  border: none;
+  border-radius: 4;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#mode,
+#idle_inhibitor,
+#custom-power,
+#clock,
+#memory,
+#cpu,
+#custom-weather,
+#battery,
+#pulseaudio,
+#network,
+#disk,
+#language,
+#workspaces,
+#tray,
+#custom-wlsunset,
+#window,
+#custom-swappy {
+  margin-left: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+  background: #282a36;
+  transition: none;
+  color: #fff;
+  background: #1b2227;
+}
+
+window#waybar {
+  border-radius: 0;
+  background-color: #161c20;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+window#waybar.alacritty #window,
+window#waybar.Firefox #window,
+window#waybar.Brave #window,
+window#waybar.Navigator #window,
+window#waybar.PCSX2 #window {
+  color: #fff;
+  background: #1b2227;
+}
+
+#tray {
+  font-family: Monospace;
+}
+
+#workspaces button {
+  transition: none;
+  background: transparent;
+  color: #808080;
+  font-weight: bold;
+}
+
+#workspaces button.focused {
+  color: #fff;
+}
+
+#language {
+  margin-left: 20px;
+}
+
+#mpd.disconnected,
+#mpd.stopped {
+  color: #f8f8f2;
+  background: #282a36;
+}
